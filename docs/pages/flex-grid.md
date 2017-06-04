@@ -136,7 +136,7 @@ A column can also be made to *shrink*, by adding the `.shrink` class. This means
 
 Columns in a flex grid will not wrap if not given an explicit size&mdash;this is what allows the magical auto-sizing to work. To make columns stack on smaller screens, add the class `.small-12` manually.
 
-To switch back to the expand behavior from a percentage or shrink behavior, use the classes `.medium-expand` or `.large-expand`. In the below example, the columns stack on small screens, and become even-width on large screens.
+To switch back to the expand behavior from a percentage or shrink behavior, use the classes `.medium-expanded` or `.large-expanded`. In the below example, the columns stack on small screens, and become even-width on large screens.
 
 <div class="docs-codepen-container">
 <a class="codepen-logo-link" href="http://codepen.io/ZURBFoundation/pen/vmRpBJ?editors=1000" target="_blank"><img src="{{root}}assets/img/logos/edit-in-browser.svg" class="" height="" width="" alt="edit on codepen button"></a>
@@ -144,12 +144,12 @@ To switch back to the expand behavior from a percentage or shrink behavior, use 
 
 ```html_example
 <div class="row">
-  <div class="small-12 large-expand columns">One</div>
-  <div class="small-12 large-expand columns">Two</div>
-  <div class="small-12 large-expand columns">Three</div>
-  <div class="small-12 large-expand columns">Four</div>
-  <div class="small-12 large-expand columns">Five</div>
-  <div class="small-12 large-expand columns">Six</div>
+  <div class="small-12 large-expanded columns">One</div>
+  <div class="small-12 large-expanded columns">Two</div>
+  <div class="small-12 large-expanded columns">Three</div>
+  <div class="small-12 large-expanded columns">Four</div>
+  <div class="small-12 large-expanded columns">Five</div>
+  <div class="small-12 large-expanded columns">Six</div>
 </div>
 ```
 
